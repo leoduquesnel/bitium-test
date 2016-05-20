@@ -19,6 +19,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'httparty', require: false
 gem 'haml'
 
+gem 'devise'
+
 source 'https://rails-assets.tenex.tech' do
   gem 'rails-assets-bootstrap'
 end
