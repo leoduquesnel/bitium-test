@@ -20,6 +20,7 @@ gem 'httparty', require: false
 gem 'haml'
 
 gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
 
 source 'https://rails-assets.tenex.tech' do
   gem 'rails-assets-bootstrap'
