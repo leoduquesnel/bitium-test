@@ -16,10 +16,10 @@ You're ready !
 - As an user you can sign up and log in into the application
 - As an user you check if you've already visit the following applications:
 
-Facebook
-Twitter
-LinkedIn
-Dropbox
+Facebook,
+Twitter,
+LinkedIn,
+Dropbox,
 GitHub
 
 ## Run tests
