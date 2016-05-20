@@ -11,4 +11,5 @@
 
 class AppsUser < ActiveRecord::Base
   validates :user_id, :app_id, presence: true
+  validates_uniqueness_of :user_id, scope: :app_id
 end
