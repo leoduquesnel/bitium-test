@@ -21,3 +21,6 @@
 
       .actions
         = f.submit "Log in", class: "btn btn-primary"
+        - if devise_mapping.registerable? && controller_name != 'registrations'
+          = link_to "Sign up", new_registration_path(resource_name), class: 'btn btn-default'
+  

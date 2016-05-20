@@ -26,7 +26,11 @@ cleanTestsResult = () ->
   $("#results").empty()
 
 displayTestResult = (result) ->
-  $("#results").append($("<li></li>").append(result.name + ": " + result.visited))
+  s = $("<li></li>")
+  if result.visited
+    $("#results").prepend(s.append($("<strong></strong>").append(result.name + ": " + result.visited)))
+  else
+    $("#results").append(s.append(result.name + ": " + result.visited))
 
 saveTestResult = (app_id) ->
   $.post '/apps_users', {app_id: app_id}

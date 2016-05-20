@@ -1,4 +1,4 @@
-App.create(name: 'Facebook', resource_url: "https://www.facebook.com/rsrc.php/v2/yj/r/3bOnn_9wcoc.css")
+App.create(name: 'Facebook', resource_url: "https://www.facebook.com/rsrc.php/v2/ys/r/zqwUK_BDp48.css")
 App.create(name: 'Twitter', resource_url: "https://abs.twimg.com/a/1463639780/css/t1/twitter_core.bundle.css")
 App.create(name: 'LinkedIn', resource_url: "https://static.licdn.com/sc/h/5nfs8tv412enn2m6890oaop9g,azsgyqypjgy6ngvlac5yvppzm")
 App.create(name: 'Dropbox', resource_url: "https://cf.dropboxstatic.com/static/css/accessibility-vfle8A-zy.css")
