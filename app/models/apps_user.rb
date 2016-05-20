@@ -10,4 +10,5 @@
 #
 
 class AppsUser < ActiveRecord::Base
+  validates :user_id, :app_id, presence: true
 end

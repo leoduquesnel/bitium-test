@@ -1,8 +1,5 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+App.create(name: 'Facebook', resource_url: "https://www.facebook.com/rsrc.php/v2/yj/r/3bOnn_9wcoc.css")
+App.create(name: 'Twitter', resource_url: "https://abs.twimg.com/a/1463639780/css/t1/twitter_core.bundle.css")
+App.create(name: 'Youtube', resource_url: "https://s.ytimg.com/yts/cssbin/www-core-webp-vflokIll5.css")
+App.create(name: 'LinkedIn', resource_url: "https://static.licdn.com/scds/concat/common/css?h=c52xqty03kc2uumayfdgw52ha-6eb15yl27eoj4wlyl799ae32f-9isvvzw61fpveso9doy1mzsas-2qk68hrxrqya74okuimf9dv0c-613o3z852fmufuoq56wjec8bn-85wiima0ubjro2ec7cdrgivnh-aibd4bc52tilbqe5gz50e4sem")
+App.create(name: 'Google', resource_url: "https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.2hy6IWQN-pI.O/m=jsa,ntp,d,csi/rt=j/d=1/t=zcms/rs=ACT90oHYM7T3xg4XH2MGgjhmgtKNF97Kcg")

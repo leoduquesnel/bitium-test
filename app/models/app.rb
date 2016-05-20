@@ -10,4 +10,5 @@
 #
 
 class App < ActiveRecord::Base
+  validates :name, :resource_url, presence: true
 end
