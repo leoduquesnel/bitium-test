@@ -31,8 +31,9 @@ GitHub
 Deployed on : https://shielded-beyond-30595.herokuapp.com/
 
 
-## Go on admin dashboard
+## Go on admin dashboard on /admin
 
 login: leo@bitium.com
+
 passwd: ********
 
