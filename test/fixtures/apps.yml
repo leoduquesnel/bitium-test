@@ -12,9 +12,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  resource_url: MyString
+  name: Facebook
+  resource_url: "https://www.facebook.com/rsrc.php/v2/ys/r/zqwUK_BDp48.css"
 
 two:
-  name: MyString
-  resource_url: MyString
+  name: Twitter@
+  resource_url: "https://abs.twimg.com/a/1463639780/css/t1/twitter_core.bundle.css"
