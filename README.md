@@ -33,3 +33,5 @@ GitHub
 ## Demo
 
 Demo on : https://shielded-beyond-30595.herokuapp.com/
+Email: leo.duquesnel@gmail.com
+Password: 12345678
