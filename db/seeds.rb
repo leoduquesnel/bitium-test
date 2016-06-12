@@ -3,3 +3,4 @@ App.create(name: 'Twitter', resource_url: "https://abs.twimg.com/a/1463639780/cs
 App.create(name: 'LinkedIn', resource_url: "https://static.licdn.com/sc/h/5nfs8tv412enn2m6890oaop9g,azsgyqypjgy6ngvlac5yvppzm")
 App.create(name: 'Dropbox', resource_url: "https://cf.dropboxstatic.com/static/css/accessibility-vfle8A-zy.css")
 App.create(name: 'GitHub', resource_url: "https://assets-cdn.github.com/assets/frameworks-536bcdee57776d99649d118d29a291c9d7b41d101696162d6456c87b07314253.css")
+User.create(email: "leo.duquesnel@gmail.com", password: "12345678", password_confirmation: "12345678")

@@ -1,5 +1,9 @@
-Bitium test by Léo Duquesnel
+URL Tester by Léo Duquesnel
 ==
+
+## Context
+
+URL Tester is a project to test if you've already visited some websites.
 
 ## How to set up the project:
 
@@ -14,7 +18,7 @@ You're ready !
 ## How to use the project:
 
 - As an user you can sign up and log in into the application
-- As an user you check if you've already visit the following applications:
+- As an user you check if you've already visit the following websites:
 
 Facebook,
 Twitter,
@@ -26,14 +30,6 @@ GitHub
 
 `rake test`
 
-## Deployed on
+## Demo
 
-Deployed on : https://shielded-beyond-30595.herokuapp.com/
-
-
-## Go on admin dashboard on /admin
-
-login: leo@bitium.com
-
-passwd: ********
-
+Demo on : https://shielded-beyond-30595.herokuapp.com/
